@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100 dark:bg-zinc-800 text-gray-800 dark:text-gray-100 overflow-x-hidden;
+  }
+  html {
+    @apply overflow-x-hidden;
+  }
+}
+
+.page-enter {
+  transform: translateX(100vw);
+  opacity: 0;
+}
+.page-leave-to {
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+.page-leave-active,
+.page-enter-active {
+  transition: transform 500ms ease-in-out, opacity 700ms ease-in-out;
+}
+
+::-webkit-scrollbar {
+  @apply bg-slate-200 dark:bg-zinc-700;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-zinc-600;
+}
