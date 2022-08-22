@@ -1,5 +1,6 @@
 export const state = () => ({
   theme: 'light',
+  showNavMenu: false,
 });
 
 export const mutations = {
@@ -14,11 +15,17 @@ export const mutations = {
     state.theme = 'light';
     this.$cookies.set('theme', 'light');
   },
+  toggleNavMenu(state) {
+    state.showNavMenu = !state.showNavMenu;
+  },
 };
 
 export const getters = {
   theme(state) {
     return state.theme;
+  },
+  showNavMenu(state) {
+    return state.showNavMenu;
   },
 };
 
