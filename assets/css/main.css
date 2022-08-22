@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-100 dark:bg-zinc-800 text-gray-800 dark:text-gray-100 overflow-x-hidden;
+    @apply bg-gray-100 dark:bg-zinc-800 text-gray-800 dark:text-gray-100 overflow-x-hidden selection:bg-emerald-500 selection:text-white;
   }
   html {
     @apply overflow-x-hidden;
