@@ -87,7 +87,9 @@
         :hover-classes="['group-hover:text-cyan-500']">
         <template v-slot:title>Tailwindcss</template>
         <template v-slot:text>
-          استفاده از tailwind برای ساخت کامپوننت های کاستوم
+          استفاده از tailwindcss برای ساخت کامپوننت های کاستوم و همینطور ساخت تم
+          دارک و لایت برای سایت ها. تسلط به استفاده از Arbitrary values در
+          tailwindcss.
         </template>
       </index-knowledge-item>
 
