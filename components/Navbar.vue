@@ -9,7 +9,9 @@
           <img src="/logo/vue.svg" class="h-full" />
         </div>
         <div class="pr-3 md:hidden">
-          <icon-menu class="w-6 h-6" />
+          <button class="block w-6 h-6" @click="toggleNavMenu">
+            <component :is="showNavMenu ? 'icon-close' : 'icon-menu'" />
+          </button>
         </div>
         <p class="poppins">SamuelSam-dev</p>
       </div>
@@ -46,6 +48,8 @@
 </template>
 
 <script>
+import { mapMutations, mapGetters } from 'vuex';
+
 export default {
   data: () => ({
     scrolled: false,
@@ -61,6 +65,9 @@ export default {
       if (scrollY > 10) this.scrolled = true;
       else this.scrolled = false;
     },
+    ...mapMutations({
+      toggleNavMenu: 'toggleNavMenu',
+    }),
   },
   computed: {
     icon() {
@@ -77,6 +84,9 @@ export default {
           ]
         : [];
     },
+    ...mapGetters({
+      showNavMenu: 'showNavMenu',
+    }),
   },
   mounted() {
     document.addEventListener('scroll', this.elevateOnScroll);
