@@ -27,17 +27,17 @@
             <nuxt-link
               class="hover:text-emerald-600 dark:hover:text-emerald-400 transition duration-300"
               exact-active-class="text-emerald-600 dark:text-emerald-400"
-              to="/about"
-              >درباره من</nuxt-link
-            >
+              to="/contact">
+              اطلاعات تماس
+            </nuxt-link>
           </li>
           <li>
             <nuxt-link
               class="hover:text-emerald-600 dark:hover:text-emerald-400 transition duration-300"
               exact-active-class="text-emerald-600 dark:text-emerald-400"
-              to="/"
-              >صفحه اصلی</nuxt-link
-            >
+              to="/">
+              صفحه اصلی
+            </nuxt-link>
           </li>
         </ul>
       </nav>
