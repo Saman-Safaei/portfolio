@@ -11,7 +11,7 @@
       </div>
     </div>
     <div
-      class="py-20 bg-gradient-to-br from-teal-500 to-emerald-700 dark:from-teal-700 dark:to-emerald-900">
+      class="py-20 bg-gradient-to-br from-teal-500 to-emerald-700 dark:from-zinc-600 dark:to-zinc-800">
       <div class="max-w-6xl mx-auto px-8 text-white font-medium">
         <index-status />
       </div>
