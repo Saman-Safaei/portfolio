@@ -1,6 +1,10 @@
 <template>
   <div>
-    <h3 class="text-center text-3xl font-bold mb-12">مهارت های من</h3>
+    <h3 class="text-center text-3xl font-bold mb-3">مهارت های من</h3>
+    <p class="text-center mb-12 text-gray-500 dark:text-zinc-400 text-sm">
+      مهارت هایی که در حال حاضر دارم ، اگر اطلاعات بیشتری لازم دارین روی هر
+      مهارت کلیک کنید
+    </p>
     <div
       class="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5"
       dir="rtl">
