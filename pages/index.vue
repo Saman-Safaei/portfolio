@@ -11,9 +11,9 @@
       </div>
     </div>
     <div
-      class="py-12 bg-gradient-to-br from-teal-400 to-emerald-600 dark:from-teal-700 dark:to-emerald-900">
+      class="py-20 bg-gradient-to-br from-teal-500 to-emerald-700 dark:from-teal-700 dark:to-emerald-900">
       <div class="max-w-6xl mx-auto px-8 text-white font-medium">
-        تست متن فارسی وزیر
+        <index-status />
       </div>
     </div>
   </div>
