@@ -30,7 +30,7 @@
         <strong>یادگیری</strong> بیشتر این فریمورک دارم و روز به روز خودم رو
         <strong>آپدیت</strong> میکنم.
       </p>
-      <btn-raised type-of="link" to="/about">تماس با من</btn-raised>
+      <btn-raised type-of="link" to="/contact">تماس با من</btn-raised>
     </div>
   </div>
 </template>
