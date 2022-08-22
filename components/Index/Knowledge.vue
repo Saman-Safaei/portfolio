@@ -98,7 +98,11 @@
         img-alt="nuxt logo"
         :hover-classes="['group-hover:text-green-400']">
         <template v-slot:title>Nuxt</template>
-        <template v-slot:text> فعلا خالیه </template>
+        <template v-slot:text>
+          آشنا به مباحث SSR و SSG. کانفیگ ناکست و همینطور axios. آشنا به مبحث
+          prefetch لینک ها در Nuxt. آشنا به نحوه کار کرد FileBased Router و ساخت
+          Layout ها در ناکست.
+        </template>
       </index-knowledge-item>
 
       <index-knowledge-item
@@ -107,7 +111,10 @@
         img-class="p-4"
         :hover-classes="['group-hover:text-red-500']">
         <template v-slot:title>Git</template>
-        <template v-slot:text> فعلا خالیه </template>
+        <template v-slot:text>
+          ساخت و کلون کردن یک رپوزیتوری. استیج کردن تغییرات و کامیت کردن آنها با
+          پیام مناسب. آشنا با استراتژی merge و rebase.
+        </template>
       </index-knowledge-item>
 
       <index-knowledge-item
@@ -116,7 +123,11 @@
         img-class="p-2"
         :hover-classes="['group-hover:text-blue-500']">
         <template v-slot:title>Vuetify</template>
-        <template v-slot:text> فعلا خالیه </template>
+        <template v-slot:text>
+          نصب و استفاده Vuetify در پروژه های Nuxt. کانفیگ کردن Vuetify برای تم
+          دارک و لایت و همینطور RTL در Vuetify. ساخت Layout های ساده. کاستوم
+          کردن تم دیفالت Vuetify.
+        </template>
       </index-knowledge-item>
     </div>
   </div>
