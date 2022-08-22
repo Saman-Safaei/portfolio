@@ -1,6 +1,7 @@
 <template>
   <div>
     <navbar />
+    <navmenu />
     <div class="h-[4.5rem]"></div>
     <nuxt />
   </div>
