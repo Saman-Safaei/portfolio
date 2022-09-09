@@ -12,6 +12,7 @@
     "lintfix": "prettier --write --list-different ."
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
     "cookie-universal-nuxt": "^2.2.2",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
