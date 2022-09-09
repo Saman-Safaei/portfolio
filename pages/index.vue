@@ -1,20 +1,22 @@
 <template>
   <div>
     <div class="py-12">
-      <div class="max-w-6xl mx-auto px-8">
+      <Container>
         <index-app-header />
-      </div>
+      </Container>
     </div>
     <div class="py-12">
-      <div class="max-w-6xl mx-auto px-8">
+      <Container>
         <index-knowledge />
-      </div>
+      </Container>
     </div>
     <div
       class="py-20 bg-gradient-to-br from-teal-500 to-emerald-700 dark:from-zinc-600 dark:to-zinc-800">
-      <div class="max-w-6xl mx-auto px-8 text-white font-medium">
-        <index-status />
-      </div>
+      <Container>
+        <div class="text-white font-medium">
+          <index-status />
+        </div>
+      </Container>
     </div>
   </div>
 </template>
@@ -23,7 +25,15 @@
 export default {
   name: 'IndexPage',
   head: {
-    title: 'Home',
+    title: 'توسعه دهنده فرانت اند و خدمات طراحی سایت',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'سامان صفائی برنامه نویس جونیور فرانت اند، توسعه دهنده فرانت اند با ویو و تیلویند، توانمند در ساخت و انجام خدمات طراحی سایت های شرکتی و ...',
+      },
+    ],
   },
 };
 </script>
