@@ -5,9 +5,12 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Unknown',
-    titleTemplate: 'SamuelSam-dev - %s',
+    titleTemplate: '%s | سامان صفائی',
     htmlAttrs: {
       lang: 'en',
+    },
+    bodyAttrs: {
+      class: 'select-none',
     },
     meta: [
       { charset: 'utf-8' },
@@ -15,7 +18,6 @@ export default {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1, user-scalable=no',
       },
-      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -34,7 +36,7 @@ export default {
   buildModules: ['@nuxt/postcss8'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['cookie-universal-nuxt'],
+  modules: ['cookie-universal-nuxt', '@nuxtjs/sitemap'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -49,5 +51,11 @@ export default {
   pageTransition: {
     name: 'page',
     mode: 'out-in',
+  },
+
+  sitemap: {
+    hostname: 'https://samansafaei.ir/',
+    gzip: true,
+    routes: [],
   },
 };
