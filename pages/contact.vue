@@ -1,14 +1,28 @@
 <template>
-  <div class="p-4">
-    <div class="max-w-6xl mx-auto">it is my about page</div>
+  <div>
+    <div class="py-12">
+      <Container>
+        <ContactGlassCard>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <contact-info-input text="09196043787" title="شماره تماس" />
+            <contact-info-input text="xsamansafaeix@gmail.com" title="ایمیل" />
+            <contact-info-input text="SamuelSam-dev" title="گیت هاب" />
+            <contact-info-input text="SamuelSam_dev" title="تلگرام" />
+            <contact-info-input text="hallowed_programmer" title="اینستاگرام" />
+            <contact-info-input text="09029226521" title="واتساپ" />
+          </div>
+        </ContactGlassCard>
+      </Container>
+    </div>
+    <contact-parallax-card />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'AboutPage',
+  name: 'ContactPage',
   head: {
-    title: 'About',
+    title: 'تماس با من',
   },
 };
 </script>
