@@ -2,7 +2,7 @@
   <div class="flex flex-col items-stretch gap-2">
     <h3 dir="auto">{{ title }} :</h3>
     <div
-      class="group bg-white/50 dark:bg-zinc-700/50 shadow overflow-hidden flex flex-row items-center rounded-md poppins text-sm transition-colors duration-300"
+      class="group shadow overflow-hidden flex flex-row items-center rounded-md poppins text-sm transition-colors duration-300"
       :class="copyClasses">
       <input
         type="text"
@@ -29,14 +29,14 @@ export default {
   props: ['text', 'title'],
   methods: {
     async onCopy() {
-      await navigator.clipboard.writeText(this.text);
+      navigator.clipboard.writeText(this.text);
       this.copied = true;
       setTimeout(() => (this.copied = false), 2500);
     },
   },
   computed: {
     copyClasses() {
-      return this.copied ? ['bg-emerald-500/50', 'dark:bg-emerald-400/40'] : [];
+      return this.copied ? ['bg-emerald-500/50', 'dark:bg-emerald-400/40'] : ['bg-white/50', 'dark:bg-zinc-700/50'];
     },
   },
 };

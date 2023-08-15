@@ -6,7 +6,7 @@
     </div>
 
     <div class="text-center flex flex-col items-stretch gap-2">
-      <p class="text-4xl">2</p>
+      <p class="text-4xl">4</p>
       <h4 class="font-normal">پروژه های موفق</h4>
     </div>
 

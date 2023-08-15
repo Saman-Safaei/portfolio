@@ -10,14 +10,6 @@
         <index-knowledge />
       </Container>
     </div>
-    <div
-      class="py-20 bg-gradient-to-br from-teal-500 to-emerald-700 dark:from-zinc-600 dark:to-zinc-800">
-      <Container>
-        <div class="text-white font-medium">
-          <index-status />
-        </div>
-      </Container>
-    </div>
   </div>
 </template>
 

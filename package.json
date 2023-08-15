@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --openssl-legacy-provider",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "nuxt start --hostname 0.0.0.0",
     "generate": "nuxt generate",
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier",

@@ -13,7 +13,7 @@
             <component :is="showNavMenu ? 'icon-close' : 'icon-menu'" />
           </button>
         </div>
-        <p class="poppins">SamuelSam-dev</p>
+        <p class="poppins">Saman-Safaei</p>
       </div>
       <span class="grow"></span>
       <div class="h-full flex flex-row items-center md:pr-6 gap-2">
